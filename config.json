@@ -1,0 +1,25 @@
+{
+    "Parameters": {
+        "Region": "eu-central-1",
+        "IPv6_ENABLED": false,
+        "DeploymentPrefix": "PANPoC"
+    },
+    "VPCs": [
+        {
+            "Name": "VPC-A",
+            "CIDR": "10.1.0.0/16"
+        },
+        {
+            "Name": "VPC-B",
+            "CIDR": "10.1.0.0/16"
+        },
+        {
+            "Name": "VPC-C",
+            "CIDR": "10.10.0.0/16"
+        },
+        {
+            "Name": "VPC-APPLIANCE",
+            "CIDR": "10.15.0.0/16"
+        }
+    ]
+}
